@@ -1,5 +1,5 @@
 # Taken from https://github.com/Homegear/Homegear-Docker/blob/master/rpi-stable/Dockerfile
-FROM homegear/rpi-homegear:nightly
+FROM homegear/homegear:testing
 MAINTAINER Clemens Putschli <clemens@putschli.de>
 
 COPY run.sh /run.sh
